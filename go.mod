@@ -4,8 +4,6 @@ go 1.22.5
 
 toolchain go1.22.7
 
-replace github.com/brankomiric/transactions-parser => C:\Users\radio\Documents\projects\transactions-parser
-
 require (
 	github.com/brankomiric/transactions-parser v0.0.2
 	github.com/ethereum/go-ethereum v1.14.8

@@ -58,7 +58,6 @@ func main() {
 	for {
 		time.Sleep(10 * time.Second)
 		txs1 := parser.GetTransactions(addr1)
-		log.Println(addr1)
 		txs2 := parser.GetTransactions(addr2)
 		log.Printf("Addr %s tx count %d\n", addr1, len(txs1))
 		log.Printf("Addr %s tx count %d\n", addr2, len(txs2))
